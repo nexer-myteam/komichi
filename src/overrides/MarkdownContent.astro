@@ -1,0 +1,15 @@
+---
+/**
+    * Compose Starlight's default MarkdownContent + starlight-blog's wrapper.
+    * This lets Nova keep styling while the blog plugin still augments posts.
+    */
+import Default from '@astrojs/starlight/components/MarkdownContent.astro';
+import BlogMarkdownContent from 'starlight-blog/components/MarkdownContent.astro';
+
+const props = Astro.props;
+---
+<!-- Default Starlight rendering (Nova styles still apply through CSS) -->
+<Default {...props}><slot /></Default>
+
+<!-- Blog-specific chrome & behaviors -->
+<BlogMarkdownContent {...props}><slot /></BlogMarkdownContent>

@@ -1,0 +1,68 @@
+tags:
+  # Core feature tags
+  components:
+    label: "Components"
+    description: "UI components and their usage patterns"
+    color: "#3b82f6"
+    icon: "🧩"
+
+  configuration:
+    label: "Configuration"
+    description: "Setup options and config files"
+    color: "#3b82f6"
+    icon: "⚙️"
+
+  theming:
+    label: "Theming"
+    description: "Styling, colors, and visual customization"
+    color: "#3b82f6"
+    icon: "🎨"
+
+  # Integration tags
+  plugins:
+    label: "Plugins"
+    description: "Extending functionality with plugins"
+    color: "#8b5cf6"
+    icon: "🔌"
+
+  frameworks:
+    label: "Frameworks"
+    description: "Framework-specific usage (React, Vue, etc.)"
+    color: "#8b5cf6"
+    icon: "🏗️"
+
+  deployment:
+    label: "Deployment"
+    description: "Hosting and deployment platforms"
+    color: "#8b5cf6"
+    icon: "🚀"
+
+  # Content type tags
+  guide:
+    label: "Guide"
+    description: "Step-by-step instructions"
+    color: "#10b981"
+    icon: "📖"
+
+  reference:
+    label: "Reference"
+    description: "API and configuration reference"
+    color: "#10b981"
+    icon: "📚"
+
+  # Audience tags
+  getting-started:
+    label: "Getting Started"
+    description: "For new users starting out"
+    color: "#f59e0b"
+    icon: "🌱"
+
+  advanced:
+    label: "Advanced"
+    description: "For experienced users"
+    color: "#f59e0b"
+    icon: "⚡"
+    prerequisites: ["getting-started"]
+
+defaults:
+  color: "#6b7280"
